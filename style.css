@@ -405,3 +405,52 @@ margin: 20px 0px;
     font-family: "Roboto Mono";
     font-size: 12px;
 }
+/* aware-section */
+
+.container-5 {
+  width: 90%;
+  margin: 80px auto 100px auto; /* Added more bottom margin to move section down */
+  padding: 50px 0;
+}
+
+.aware-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px; /* space between image and text */
+}
+
+.aware-img img {
+  width: 600px; /* increased width */
+  height: 650px; /* increased height */
+  object-fit: cover;
+  border-radius: 15px; 
+}
+
+.aware-text {
+  max-width: 600px;
+}
+
+.aware-text h2 {
+  font-family: "crimson text";
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: -2;
+  color: #333;
+  line-height: 105%;
+}
+
+.aware-text p {
+  font-family: "DM Sans";
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.aware-text span {
+  font-family: "roboto mono";
+  font-size: 12px;
+  color: #485C11;
+  margin-left: 10px;
+}
