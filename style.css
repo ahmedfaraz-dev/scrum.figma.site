@@ -46,12 +46,13 @@ header {
  padding: 15px 40px;
 }
 .nav-main{
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     position: fixed;
     top: 15;
     z-index: 9999;
+    left: 25%;
 }
 .nav-list {
     display: flex;
@@ -62,6 +63,7 @@ header {
     border-radius: 60px;
      background: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(15px); 
+    
 }
 .nav-list li a {
     text-decoration: none;
@@ -70,6 +72,7 @@ header {
     font-weight: bold;
     color: #000000;
     transition:  color 0.3s ease;
+
 }
 .nav-list li a:hover {
     color: #78716F;
@@ -94,7 +97,7 @@ header {
     cursor: pointer;
     
 }
-.nav-btn :hover {
+.nav-btn:hover {
     background-color: #798C79;
 }
 
@@ -364,7 +367,7 @@ color: #6F6F6F;
 }
 
 
-/* ricing plans */
+/* pricing plans */
 
 .pricing-main {
 display: flex;
@@ -409,7 +412,7 @@ margin: 20px 0px;
 
 .container-5 {
   width: 90%;
-  margin: 80px auto 100px auto; /* Added more bottom margin to move section down */
+  margin: 80px auto 100px auto; 
   padding: 50px 0;
 }
 
@@ -417,12 +420,12 @@ margin: 20px 0px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 60px; /* space between image and text */
+  gap: 60px; 
 }
 
 .aware-img img {
-  width: 600px; /* increased width */
-  height: 650px; /* increased height */
+  width: 600px; 
+  height: 650px; 
   object-fit: cover;
   border-radius: 15px; 
 }
@@ -453,4 +456,153 @@ margin: 20px 0px;
   font-size: 12px;
   color: #485C11;
   margin-left: 10px;
+}
+
+/* sucess-section */
+.succ-title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  align-items: center;
+}
+.succ-title h1 {
+    font-family: "crimson text";
+    font-size: 60px;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.su-btn {
+    height: 50px;
+    background-color: #DFECC6;
+    width: 145px;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+  
+}
+.su-btn:hover {
+  background-color: #798c79de;
+}
+.sucess-list {
+   display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 15px 40px;
+}
+.sucess-card h1 {
+  font-family: "DM Sans";
+  font-size: 80px;
+  color: #929292;
+}
+.sucess-card span {
+  font-family: "crimson text";
+  font-size: 18px;
+}
+.sucess-card p {
+  font-family: "DM Sans";
+  font-size: 15px;
+  color: #6F6F6F;
+}
+.sucess-img {
+   width: 100%;
+   margin: 0 auto; 
+   position: relative; 
+  padding: 80px 0 60px;
+}
+.sucess-img img {
+   width: 100%;
+}
+/* contact-section */
+
+.Contact-title {
+   text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    z-index: 3;
+    padding: 15px 0; 
+}
+.Contact-title h2 {
+   font-family: "crimson text";
+   font-size: 60px;
+   font-weight: normal;
+   line-height: 85%;
+  
+}
+.Contact-title p {
+   font-family: "DM Sans";
+   font-size: 15px;
+   color: #6F6F6F;
+   margin-bottom: 30px;
+}
+.contact-btn {
+    height: 50px;
+    background-color: #485C11;
+    width: 650px;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact-btn:hover {
+   background-color: #798C79;
+}
+
+/* footer */
+.footer{
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: start;
+  margin-top: 40px;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  width: 100%;
+}
+.footer-list{
+  display: flex;
+  justify-content: start;
+  gap: 12px;
+}
+
+.footer-first{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.footer-first p{
+  margin: 0px;
+  font-family: "roboto mono";
+  font-size: 12px;
+  color: #485C11;
+}
+.footer-last{
+  display: flex ;
+  align-items: flex-end;
+}
+.footer-last p{
+  margin: 0px;
+  font-family: "roboto mono";
+  font-size: 12px;
+  color: #485C11;
+}
+.footer-list a {
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
 }
